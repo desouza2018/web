@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Para personalizar a cor utilizamos o código hexadecimal dentro do bg-[#09090A]. Veja abaixo:
+ */
+body {
+    @apply bg-[#09090A] text-zinc-100;
+}
+/* Abaixo vemos o padrão:
+body {
+    @apply bg-zinc-800 text-zinc-100;
+}
+*/
